@@ -1,4 +1,4 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+	import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -21,17 +21,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://divistant.net/')
 
-WebUI.click(findTestObject('Object Repository/Quality Asuranced/Page_Home  Divistant - More Than Innovation/a_Quality Assured Delivery'))
+WebUI.click(findTestObject('Object Repository/Secure _ reliable operation/Page_Home  Divistant - More Than Innovation/a_Secure  Reliable Operations'))
 
-WebUI.verifyElementPresent(findTestObject('Quality Asuranced/Page_Home  Divistant - More Than Innovation/Page_Home  Divistant - More Than Innovation/Page_Home  Divistant - More Than Innovation/card_Quality Assured Delivery'), 
+WebUI.verifyElementPresent(findTestObject('Secure _ reliable operation/Page_Home  Divistant - More Than Innovation/card_Secure  Reliable Operations'), 
     30)
 
-WebUI.verifyMatch('Quality Assured Delivery', 'Quality Assured Delivery', false)
+WebUI.verifyMatch('Secure & Reliable Operations', 'Secure & Reliable Operations', true)
 
-WebUI.click(findTestObject('Object Repository/Quality Asuranced/Page_Home  Divistant - More Than Innovation/button_View Detail'))
+WebUI.click(findTestObject('Object Repository/Secure _ reliable operation/Page_Home  Divistant - More Than Innovation/button_View Detail'))
 
-WebUI.verifyElementPresent(findTestObject('Quality Asuranced/Page_Solutions - Quality Assured Delivery  Divistant - More Than Innovation/heading_Quality Assured Delivery solution'), 
+WebUI.verifyElementPresent(findTestObject('Secure _ reliable operation/Page_Home  Divistant - More Than Innovation/Page_Solutions - Secure And Reliable Operations  Divistant - More Than Innovation/heading_Secure  Reliable Operations'), 
     30)
 
 WebUI.closeBrowser()
-

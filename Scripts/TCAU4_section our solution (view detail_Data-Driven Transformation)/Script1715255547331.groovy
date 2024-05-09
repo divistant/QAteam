@@ -21,17 +21,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://divistant.net/')
 
-WebUI.click(findTestObject('Object Repository/Quality Asuranced/Page_Home  Divistant - More Than Innovation/a_Quality Assured Delivery'))
+WebUI.click(findTestObject('Object Repository/Data-Driven Transformation/Page_Home  Divistant - More Than Innovation/a_Data-Driven Transformation'))
 
-WebUI.verifyElementPresent(findTestObject('Quality Asuranced/Page_Home  Divistant - More Than Innovation/Page_Home  Divistant - More Than Innovation/Page_Home  Divistant - More Than Innovation/card_Quality Assured Delivery'), 
+WebUI.verifyElementPresent(findTestObject('Data-Driven Transformation/Page_Home  Divistant - More Than Innovation/Page_Home  Divistant - More Than Innovation/card_Data-Driven Transformation'), 
     30)
 
-WebUI.verifyMatch('Quality Assured Delivery', 'Quality Assured Delivery', false)
+WebUI.verifyMatch('Data-Driven Transformation', 'Data-Driven Transformation', true)
 
-WebUI.click(findTestObject('Object Repository/Quality Asuranced/Page_Home  Divistant - More Than Innovation/button_View Detail'))
+WebUI.click(findTestObject('Object Repository/Data-Driven Transformation/Page_Home  Divistant - More Than Innovation/button_View Detail'))
 
-WebUI.verifyElementPresent(findTestObject('Quality Asuranced/Page_Solutions - Quality Assured Delivery  Divistant - More Than Innovation/heading_Quality Assured Delivery solution'), 
+WebUI.verifyElementPresent(findTestObject('Data-Driven Transformation/Page_Solutions - Data Driven Transformation  Divistant - More Than Innovation/heading_Data-Driven Transformation'), 
     30)
 
 WebUI.closeBrowser()
-

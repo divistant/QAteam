@@ -21,17 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://divistant.net/')
 
-WebUI.click(findTestObject('Object Repository/Quality Asuranced/Page_Home  Divistant - More Than Innovation/a_Quality Assured Delivery'))
+WebUI.click(findTestObject('Object Repository/Cloud Hybrid Infrastructure/Page_Home  Divistant - More Than Innovation/a_Cloud  Hybrid Infrastructure'))
 
-WebUI.verifyElementPresent(findTestObject('Quality Asuranced/Page_Home  Divistant - More Than Innovation/Page_Home  Divistant - More Than Innovation/Page_Home  Divistant - More Than Innovation/card_Quality Assured Delivery'), 
-    30)
+WebUI.verifyElementPresent(findTestObject('Cloud Hybrid Infrastructure/Page_Home  Divistant - More Than Innovation/card_Cloud  Hybrid Infrastructure'), 
+    0)
 
-WebUI.verifyMatch('Quality Assured Delivery', 'Quality Assured Delivery', false)
+WebUI.verifyMatch('Cloud  Hybrid Infrastructure', 'Cloud  Hybrid Infrastructure', false)
 
-WebUI.click(findTestObject('Object Repository/Quality Asuranced/Page_Home  Divistant - More Than Innovation/button_View Detail'))
+WebUI.click(findTestObject('Object Repository/Cloud Hybrid Infrastructure/Page_Home  Divistant - More Than Innovation/button_View Detail'))
 
-WebUI.verifyElementPresent(findTestObject('Quality Asuranced/Page_Solutions - Quality Assured Delivery  Divistant - More Than Innovation/heading_Quality Assured Delivery solution'), 
-    30)
+WebUI.verifyElementPresent(findTestObject('Cloud Hybrid Infrastructure/Page_Solutions - Cloud And Hybrid Infrastructure  Divistant - More Than Innovation/heading_Cloud  Hybrid Infrastructure'), 
+    0)
 
 WebUI.closeBrowser()
 

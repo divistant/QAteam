@@ -23,8 +23,6 @@ WebUI.navigateToUrl('https://divistant.net/')
 
 WebUI.click(findTestObject('New Folder/Page_Solutions - Agile Secure Delivery Solu_04ddbd/Page_Solutions - Agile Secure Delivery Solutions  Divistant - More Than Innovation/Page_Home  Divistant - More Than Innovation/a_Agile Secure Delivery Solutions'))
 
-WebUI.getText(findTestObject('New Folder/Page_Solutions - Agile Secure Delivery Solu_04ddbd/Page_Solutions - Agile Secure Delivery Solutions  Divistant - More Than Innovation/Page_Home  Divistant - More Than Innovation/datahome'))
-
 WebUI.verifyElementPresent(findTestObject('New Folder/Page_Solutions - Agile Secure Delivery Solu_04ddbd/Page_Solutions - Agile Secure Delivery Solutions  Divistant - More Than Innovation/Page_Home  Divistant - More Than Innovation/Agile'), 
     0)
 
@@ -36,4 +34,6 @@ WebUI.verifyElementPresent(findTestObject('New Folder/Page_Solutions - Agile Sec
     30)
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.getText(findTestObject('New Folder/Page_Solutions - Agile Secure Delivery Solu_04ddbd/Page_Solutions - Agile Secure Delivery Solutions  Divistant - More Than Innovation/Page_Home  Divistant - More Than Innovation/datahome'))
 
