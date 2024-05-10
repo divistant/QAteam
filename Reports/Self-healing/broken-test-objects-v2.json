@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Managed Services/Page_Home  Divistant - More Than Innovation/svg_View Detail_h-8 w-8",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027View Detail\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Managed Services/Page_Home  Divistant - More Than Innovation/svg_View Detail_h-8 w-8_neighbor.png"
+    }
+  ]
 }
